@@ -3,19 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { getRandomHexColor } from '../../utils'
 import './List.css'
 
-// useState() - hook ( function )
-// useEffect() - hook ( function )
-// component LifeCycle: жизненые циклы компонентов ( 3 сосотяния)
-// 1. 🟢 componentDidMount - рождение компонента на странице (one-time operastion)
-// 2. 🟡 componentDidUpdate - модификация state
-// 3. 🔴 componentWillUnmount - уничтожение компонента 
-
-
-
-
-
-
-
 export default function List({ list: dataList }) {
 
     const [list, setList] = useState(structuredClone(dataList))
