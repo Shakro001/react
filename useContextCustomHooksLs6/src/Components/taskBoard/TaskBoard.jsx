@@ -15,7 +15,6 @@ export default function TaskBoard() {
 
   const { handleStatus, handleDelete } = useTaskBoard();
 
-  console.log('TASK BOARD KURWO')
 
   return (
     <div className="taskBoard">
