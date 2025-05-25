@@ -1,0 +1,24 @@
+@import url("../../styles/_reset.scss");
+.header {
+  background-color: #343038;
+}
+.header__container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 35px;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 55px;
+     -moz-column-gap: 55px;
+          column-gap: 55px;
+}
+.header__link {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header .active {
+  color: #fff;
+}
